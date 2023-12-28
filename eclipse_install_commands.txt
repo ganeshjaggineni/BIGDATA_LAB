@@ -1,0 +1,55 @@
+step - 1 : open terminal and run command to install jre
+ 
+	sudo apt install default-jre
+
+step - 2 :
+
+	sudo snap install --classic eclipse
+
+
+
+STEPS TO FOLLOW TO COPY JAR FILE INTO LBRCE SERVER
+____________________________________________
+
+step 1 : go to folder location where your jar file located in the terminal in ubuntu
+ Ex:cd Desktop
+
+step 2 : copy the jar file into student
+	scp 21761A0590wc.jar student@172.16.10.14:/home/student/VI_CSE_B/21761A0590/
+
+step 3 :
+	student@172.16.10.14's password: LbrceStudent
+
+step 4 :To check whether the file is copied or not	
+	ssh student@172.16.10.14
+
+	student@172.16.10.14's password: LbrceStudent
+
+step 5 : copy the jar file from student to hduser
+
+	scp 21761A0590wc.jar hduser@192.168.100.20:/home/hduser/VI_CSE_B/21761A059
+
+	hduser@192.168.100.20's password: ipc
+
+
+	ssh hduser@192.168.100.20
+
+	hduser@192.168.100.20's password: ipc
+
+	cd /home/hduser/VI_CSE_B/21761A0590
+
+step 6 : hadoop fs -ls home/VI_CSE_B/Roll Number
+
+	 hadoop fs -ls home/VI_CSE_B/21761A0590
+
+step 7 : hadoop jar 21761A0590.jar /VI_CSE_B/Roll Number/INPUTFILE.txt VI_CSE_B/Roll Number/INPUTFILE.txt
+
+
+step 8 : hadoop jar 21761A0590.jar /VI_CSE_B/Roll Number/INPUTFILE.txt VI_CSE_B/Roll Number/OUTPUT
+
+step 9 : hadoop fs -ls /VI_CSE_B/Roll Number/OUTPUT
+
+STEP 10 :  hadoop fs -ls /VI_CSE_B/Roll Number/OUTPUT/part*
+
+	//It displays output data
+
