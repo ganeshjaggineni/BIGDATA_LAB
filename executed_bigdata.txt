@@ -1,0 +1,2088 @@
+Microsoft Windows [Version 10.0.19045.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ML Lab>ssh student@172.16.10.14
+student@172.16.10.14's password:
+Permission denied, please try again.
+student@172.16.10.14's password:
+Permission denied, please try again.
+student@172.16.10.14's password:
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-153-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tuesday 02 January 2024 01:50:48 PM IST
+
+  System load:    0.39                Processes:                1415
+  Usage of /home: 40.8% of 117.15GB   Users logged in:          2
+  Memory usage:   20%                 IPv4 address for docker0: 172.17.0.1
+  Swap usage:     0%                  IPv4 address for eno1np0: 172.16.10.14
+  Temperature:    34.0 C              IPv4 address for virbr0:  192.168.100.1
+
+  => /u1 is using 87.6% of 253.34GB
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+317 updates can be applied immediately.
+287 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+51 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '22.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Tue Jan  2 13:50:43 2024 from 172.16.12.25
+student@BIGDATA:~$ ssh hduserr@192.168.100.20
+hduserr@192.168.100.20's password:
+Permission denied, please try again.
+hduserr@192.168.100.20's password:
+Permission denied, please try again.
+hduserr@192.168.100.20's password:
+
+student@BIGDATA:~$ ssh hduser@192.168.100.20
+hduser@192.168.100.20's password:
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 5.4.0-150-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+53 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+New release '20.04.6 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Tue Jan  2 13:51:23 2024 from 192.168.100.1
+hduser@master-node-20:~$ ls
+'\'                             file.txt
+ 0512                           first1
+ 10                             fourth
+ 12                             f.txt
+ 123.txt                        gana
+ 1a0523                         gc.txt
+ 1.txt                          geekfile.txt
+ 2021CSE-C                      geeks.txt
+ 20761A05F7                     geek.txt
+ 20761A05G9                     gg.txt
+ 21                             gnk.txt
+ 21761A0538                     gon
+ 21761A0539                     good.txt
+ 21761A0543                     gopi.txt
+ 21761A0567                     gracy.txt
+ 21761A0568                     grep.txt
+ 21761A0569                     gre.txt
+ 21761A0572                     gudigantalu
+ 21761A0574                     gundeninda
+ 21761A0575                     gundenindagudigantalu
+ 21761A0585                     guppedantha
+ 21761A0587                     guppedanthamanasu
+ 21761A0588                     h1.txt
+ 21761A0591                     hadoop
+ 21761A0592                     hadoopa541
+ 21761A0593                     hai
+ 21761A0596                     hari
+ 21761A05B1                     harsha
+ 21761A05B7                     Harsha.txt
+ 21761A05B9                     Harshi
+ 21761A05C4                     hello
+ 21761A05C5                     hellooo
+ 21761A05C6                     hello.txt
+ 21761A05C9                     Hello.txt
+ 21761A05D0                     hema
+ 21761A05D2                     hh
+ 21761A05H7                     hh.Dr_dani
+ 21761A4205                     hh.txt
+ 21761A4214                     hh.txt.
+ 21761A4217                     hh.zzz
+ 21761A4218                     hi
+ 21761a4239                     Hi
+ 21761A4243                     hii.txt
+ 21761A4245                     hi.txt
+ 21761A4250                     homehduserAIDS20761A5459
+ 21761A4261                     h.txt
+ 21761A5427                     hv.txt
+ 21csm09                        ii.txt
+ 21CSM24                        indradhanussu
+ 21csm67                        information.txt
+ 21Csm67                        info.txt
+ 21csm69                        input
+ 21sss                          it2021
+ 21.txt                         jaffa
+ 22765A0507                     jaffa11
+ 22765A0508                     Jaya.txt
+ 22765A0510                     jdfile
+ 22765A0511                     jd.txt
+ 22765A0512                     jfile
+ 23                             jj.txt
+ 257                            jo
+ 4206                           jo14
+ 4207                           john
+ 4253.txt                       josh.txt
+ 4256                           jp
+ 501                            July18
+ 507                            jyo
+ 508                            jyo.txt
+ 5081                           karishma
+ 509                            kar.txt
+ 511                            kasi.txt
+ 512                            kavya
+ 513                            kil
+ 514                            king
+ 517                            kiran
+ 521                            kishore
+ 521p                           kittu
+ 521.txt                        kk
+ 524                            kl
+ 528                            kl530
+ 530                            kl530.txt
+ 532                            klo
+ 538                            kl.txt
+ 539                            kona
+ 544                            krishna
+ 547                            krishnamukundamurari
+ 548                            ks
+ 554                            ksa
+ 564                            lab
+ 565                            lasya
+ 6_CSE_B                        le02
+ 86                             leela.txt
+ a                              likh
+ A08                            linux_dir_1
+ a23.txt                        ll
+ a2y                            local
+ A3                             localfile1.txt
+ A522                           local_file.txt
+ a541                           localfile.txt
+ a541.txt                       local.txt
+ abc                            locdir
+ ABC                            ls
+ abcd                           luci
+ abcdefghijklmnopqrstuvwxyz     lucifer
+ abc.text                       luciferr
+ abc.txt                        luciferrr1.txt
+ abdc                           luciferrr.txt
+ ai                             luffy
+ aids                           Madhuri
+ AIDS                           maks_01
+ AIDS21                         maks_01.txt
+ AIDS22                         malli
+ aiml                           mamagaru
+ Aiml                           man
+ AIML                           manasu
+ aiml01                         manoj
+ aiml20                         manoj_5G0.txt
+ aiml56                         matmul
+ aiml57                         Matrix
+ aimlcse                        mcsm
+ aiml_cse                       meerarecent
+ aiml-cse                       mee.txt
+ AIML_CSE                       messi.txt
+ AIML-CSE                       MG
+ aiml-csm                       mgchari.txt
+ ajay                           mgChari.txt
+ Ajay                           mg.txt
+ Aksha                          MN60
+ anji                           mokshagna
+ anjibabu.txt                   mon
+ anji.txt                       mounika.txt
+ anjumwordcount1                mounique.txt
+ Anutask                        movablea23.txt
+ anu.txt                        movea42.txt
+ as                             mrp.txt
+ asdfg.txt                      ms
+ a-sec                          mukunda
+ as.txt                         murari
+ aswini                         mycsea
+ a.txt                          my_file.txt
+ avroJarSpark                   myfile.txt
+ awkEx.txt                      nagapanchami
+ awkkl.txt                      naidu
+ B3                             nandu.txt
+ B6                             new
+ bachi.txt                      new01
+ balu                           new1
+ bangaramayena                  new1.txt
+ basha                          new57
+ bda                            new.txt
+ bdalab                         nikhil
+ bhavana.txt                    Nikhil
+ Big_Data2118761A05B3programs   NikhilBande
+ big.txt                        Nikhil.txt
+ capital.txt                    nik.txt
+ cat                            Nik.txt
+ cc                             NT192
+ chari                          operators
+ chari.txt                      output-file
+ chinmay                        p1
+ copy2a23.txt                   p1.txt
+ copy2a42.txt                   p2
+ copyfromhadoop                 p21
+ copyjyo.txt                    paluke
+ copykl.txt                     palukebangaramayena
+ cri.txt                        pattern.txt
+ cs                             pavan
+ cse                            pelli
+ CSE                            pellipusthakam
+ cse1                           Peter
+ cse501                         poori.txt
+ CSE-52                         pp
+ csea                           prakash
+ CSE_A                          prassu
+ cseai                          prem
+ cse_ai                         premchand
+ cse_ai_                        prnv.txt
+ cse-ai                         psn
+ CSE-AI                         p.txt
+ cseaiml                        pusthakam
+ cse_aiml                       puta23.txt
+ cse_ai_ml                      puta42.txt
+ cse-aiml                       putjyo.txt
+ cse@aiml                       putkl.txt
+ cseai-ml                       pythonEx
+ cse_Aiml                       queen
+ cse-Aiml                       r
+ cseAIML                        raju.txt
+ cse-AIML                       Ram
+ CSE-ai-ml                      ra.txt
+ CSE-Aiml                       RDJ.txt
+ CSEAIML                        recent
+ CSE_AIML                       recent.txt
+ CSE-AIML                       reddy
+ cseaiml07                      rise
+ CSEAIML12                      roh.txt
+ CSE-AIML15                     rr
+ CSEAIML18                      rrr
+ CSE-AIML18                     r.txt
+ cseaiml19                      s
+ cse-aiml20                     s1.txt
+ cse_aiml_25                    sa
+ cseai_ml30                     sai
+ cse-aiml36                     sai.ttx
+ cseaiml38                      sai.txt
+ cseaiml42                      salaar
+ cseaiml44                      salaarr
+ cseaiml6                       salaar.txt
+ cseb                           sam
+ CSE_B                          samf
+ CSE_B_5C5                      sample
+ CSE_C                          sample.txt
+ cseml                          saranya
+ CSE-ML                         sar.txt
+ cse.text                       save
+ csm                            second
+ CSM                            shafi.txt
+ csm03                          shahid
+ Csm09                          sik.txt
+ csm1                           simple.txt
+ csm17                          sra
+ csm26                          srav
+ csm37                          sravani
+ csm38                          sree.txt
+ csm42                          sri
+ csm4201                        ss
+ csm4203                        ssh
+ csm4227                        sss
+ csm4243                        ss.txt
+ csm4245                        state.txt
+ csm4258                        std536
+ csm4265                        stu502
+ csm4266                        stud511.txt
+ csm45                          stud51.txt
+ csm54                          student12.txt
+ csmaiml                        student1.txt
+ csml                           student.txt
+ csml4260                       s.txt
+ csml4264                       sutd548
+ csml4265                       syam
+ csmle05                        syam48
+ cssaiml                        syam.txt
+ d2.txt                         t
+ D4                             tas2
+ data.txt                       taskzeo1
+ davfile                        tate.txt
+ db.txt                         teja
+ de                             teja.txt
+ deep                           text
+ deepthi                        text1.txt
+ Desktop                        textfile.txt
+ devi                           thanos
+ devipriya                      third
+ dfile                          this
+ dhanushya                     'this is Dav lab concentrating on linux commands'
+ dhruva.txt                     tmp
+ dir1                           tt
+ dmr                            ttt
+ d.txt                          tt.txt
+ dva.cc                         vasavi
+ dva.txt                        veeru.txt
+ e35.txt                        venky.txt
+ emp42.txt                      vfile
+ employee.txt                   VI_CSE_B
+ Employee.txt                   vijayareddy
+ emp.txt                        vij.txt
+ esawr                          vinaya
+ Exam                           Vinaya
+ exa.txt                        vishu
+ exdir                          vk18
+ exit                           vk.txt
+ extas1                         Vl_CSE_B
+ extas2                         vp
+ External                       vvv
+ -F                             welcome
+ f1                             wipro
+ f12                            word.txt
+ f1.txt                         xy.txt
+ f2                             xyz
+ fil1.txt                       XYZ
+ file                           xyz.txt
+ file1                          yedaloyallo
+ file11.txt                     yedaloyalloindradhanussu
+ file1.txt                      zeyo1
+ file3                          zeyo2
+ file526                        zoro
+ file533                        zyxwvutsrqponmlkjihgfedcba
+ filef6.txt                     zzz
+ filename.txt                   zzzzzzzzzzzzzzzzzzzzzzzz
+ files1.txt
+hduser@master-node-20:~$ cd VI_CSE_B/
+hduser@master-node-20:~/VI_CSE_B$ ls
+03          21761A0577  21761A0587  21761A0596  21761A05A6  21761A05B8  22765A0511  pujitha.txt
+21761A0568  21761A0578  21761A0588  21761A0597  21761A05A7  21761A05C0  22765A0512  sample.txt
+21761A0569  21761A0579  21761A0589  21761A0598  21761A05A8  21761A05C2  22765A507
+21761A0571  21761A0580  21761A0590  21761A05A0  21761A05A9  21761A05C4  A7file.txt
+21761A0572  21761A0581  21761A0591  21761A05A1  21761A05B1  21761A05C5  A8file.txt
+21761A0573  21761A0582  21761A0592  21761A05A2  21761A05B2  21761A05C6  big.txt
+21761A0574  21761A0583  21761A0593  21761A05A3  21761A05B3  21761A05D1  BIG.txt
+21761A0575  21761A0584  21761A0594  21761A05A4  21761A05B6  22765A0508  gayi.txt
+21761A0576  21761A0586  21761A0595  21761A05A5  21761A05B7  22765A0509  Nagu
+hduser@master-node-20:~/VI_CSE_B$ cd 21761A0590
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ cat file.txt
+ganesh jaggineni is a god boy
+my name is ganesh.
+I am studying btech in world top college named as lbrce
+lbrce stands for lakireddy bali reddy college of engineering
+cseb
+6th sem
+rakbh boys hostel
+surayya_avinash
+gana
+gani
+bruteforce attack
+I studied ssc in government boys high school gajapathinagaram
+I studied 10+2 in sree sai siddhartha college bondapalli,gajapathinagaram
+I am studying btech in greatest college of the world i.e lbrce
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls
+Found 317 items
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 1A0542
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:11 1a0523
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:09 1a0542
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 12:22 2021CSE-C
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 10:38 2021CSE-C21761A05I7
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:21 21
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 2161A05E8
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:25 21761A0507
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:54 21761A0514
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:23 21761A0520
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:15 21761A0529
+-rw-r--r--   2 hduser supergroup         21 2023-12-21 11:23 21761A0540
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:33 21761A0543
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:23 21761A0548
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:39 21761A0555
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:31 21761A0560
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:14 21761A05D9
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:20 21761A05E7
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:52 21761A05F0
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 21761A05G6
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:15 21761A05H1
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:20 21761A05H3
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:56 21761A05H5
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:55 21761A05I2
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 10:29 21761A05I5
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:25 21761A05I7
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:28 21761A05I8
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:35 21761A05I9
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:36 21761A05J1
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:27 21761A05J3
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:21 21761A05J4
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:08 21761A05J5
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:09 21761A05J6
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:00 21761A4206
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:06 21761A4207
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:01 21761A4242
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:01 21761A4266
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:23 21761A540
+-rw-r--r--   2 hduser supergroup         50 2023-12-28 10:08 21761a0056
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:29 21761a0556
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:05 21cse069
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 22517
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:50 22765A05117
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:17 22765A0513
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:27 22765A0514
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:34 22765A0515
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 22765A0518
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:05 22765A4204
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:28 22LE16
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:45 23
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:22 32
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:22 32.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:23 508a
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 509
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:26 511
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:42 512
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:15 514
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:07 515
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 517
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:21 521
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:21 522
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:22 527
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:13 532
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:06 535
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:15 547
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:31 562
+-rw-r--r--   2 hduser supergroup        123 2023-12-28 10:05 563
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:38 564
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:04 565
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:55 5J5.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:59 5J6.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:16 A0508
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 Bhavana
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 D8
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 D8.txt
+-rw-r--r--   2 hduser supergroup        123 2023-12-28 10:18 Dr_dani
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 Durga
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:23 F5
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 F8.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 File1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 G7.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 G9.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:14 HK
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:30 Hadoop-File
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:22 Hygriv.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:41 J2
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:37 J2.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 J5.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 J6.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:21 Jaya
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:24 Jaya.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:01 Levi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:04 Maks_01
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 10:34 Manoj_5G0_lbrce
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:19 Mohith_reddy
+-rw-r--r--   2 hduser supergroup         47 2023-12-21 11:15 Nikhil
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:17 NikhilBande
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 Prasanna
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:33 RDJ
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:23 Raj
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:07 Sai
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:02 Taruni
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:05 Touch.txt
+-rw-r--r--   2 hduser supergroup         30 2023-12-20 11:17 Vamsi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:44 Vijaya_Reddy
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:01 XYZ.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-18 15:30 _sample.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:14 a
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 a23_hadoop_dp
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 a541
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:45 aa
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:54 ab
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 abc
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 abc.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:12 abcdefghijklmnopqrstuvwxyz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 abhi
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:51 aiml
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:22 ajet
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:47 ali.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 ani
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:26 anime
+-rw-r--r--   2 hduser supergroup          1 2023-12-21 12:03 anu.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:05 aswini
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:39 bda
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:56 bhiravam_shankaram
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:51 chinmay
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:37 copy.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:12 cse
+-rw-r--r--   2 hduser supergroup         15 2023-12-28 10:12 cse-a
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:03 csea
+-rw-r--r--   2 hduser supergroup         18 2023-12-28 10:11 csesyam
+drwxr-xr-x   - hduser supergroup          0 2023-12-26 10:21 csm
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:00 csm54
+-rw-r--r--   2 hduser supergroup          0 2023-12-21 10:32 d.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:44 dav
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:48 davlab.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 11:54 devi
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:19 devipriya
+-rw-r--r--   2 hduser supergroup         13 2023-12-28 09:22 dhamushya
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:11 dhanushya
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:22 dhoni
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:29 dir1
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:25 dir2
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:19 direc1
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:13 direc2
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:21 directory1
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:07 directory2
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:12 durga
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 durga.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:57 eren
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:46 eswar
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 ex1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 ex2.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:32 ex3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:49 ex4.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:43 example.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:45 f0.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:30 f2.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f3
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:31 f3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f4.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:26 f5.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:30 f5files
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:11 f8.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:32 fil1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:50 file
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:49 file.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 file1
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:47 file1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:10 file111.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 file3
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 file3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 file34.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:54 file4.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:15 g7
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 gaya3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:23 geetha
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:36 geetha.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:34 gopi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:20 gopi_THE_HERO
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 gopi_sanker
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:44 h1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 h5.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:07 h530
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 h554
+-rw-r--r--   2 hduser supergroup         63 2023-12-21 11:18 hadoop
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:52 hadoop1
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 hadoop501
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:21 hadoop503
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:52 hadoop521
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 09:11 hadoop528
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:53 hadoop529
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 hadoop538
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:36 hadoop539
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:20 hadoop554
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoop_dp
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:19 hadoopa541
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoopdirec
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:52 hadoopdp
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoopdppp
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 hadoopdpppp
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:03 hadoopfile1.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:17 hadoopkl
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:05 hadoopkl530
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoopl
+-rw-r--r--   2 hduser supergroup          0 2023-12-18 15:36 hdf_sample.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 hdfile.txt
+-rw-r--r--   2 hduser supergroup         17 2023-12-18 15:30 hdp-sample.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:05 hello.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:55 hema
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:58 info.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:32 jji
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:19 jo
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 joshna
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 jyo
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:55 karishma
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 kasi.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 kian
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:24 kil
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:09 kiran
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 kishore
+-rw-r--r--   2 hduser supergroup         56 2023-12-28 10:23 klo
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:14 kona
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:14 lakshmi
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 lal
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:53 lasya
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:27 likh
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:29 lk
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 ls
+-rw-r--r--   2 hduser supergroup         29 2023-12-28 10:12 luci
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:25 lucky.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:24 mahi
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 manjusha
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:23 manojHad.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:22 manojHadoop.txt
+drwxr-xr-x   - hduser supergroup          0 2023-02-13 14:00 matrix
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:17 meera
+-rw-r--r--   2 hduser supergroup          0 2023-12-28 09:33 meerarecent
+-rw-r--r--   2 hduser supergroup          0 2023-12-28 09:33 meerarecent.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:07 mk
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 moti.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-18 09:47 mycseA
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:00 nan.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 nandini.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:44 nikhii
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:10 pardha
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:56 pen
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 pooji
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:07 poori
+-rw-r--r--   2 hduser supergroup          0 2023-12-22 10:16 poornima.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 pp
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:34 prakash.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:02 prasanna
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:39 praveen
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 priya
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:11 priya2
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:14 pujitha521
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:36 r1.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:11 raju
+-rw-r--r--   2 hduser supergroup         47 2023-12-20 11:15 raju.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 rakesh
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:52 ram
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 ram.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:54 ramu.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 ria1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:06 rishi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:17 rocky
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:30 rockz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:33 rrr
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:33 s.txt
+-rw-r--r--   2 hduser supergroup         50 2023-12-28 10:09 s21
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:31 sai
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 saimounique.txt
+-rw-r--r--   2 hduser supergroup         29 2023-12-28 10:15 salaarr
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 samp3.txt
+-rw-r--r--   5 hduser supergroup         37 2023-12-18 15:01 sample.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:07 sample1
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 sandesh
+-rw-r--r--   4 hduser supergroup          0 2023-12-20 11:23 sr1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:27 sr2.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:41 srav
+-rw-r--r--   2 hduser supergroup        101 2023-12-28 10:12 sravan
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:17 sravani
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:25 sravs.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:39 sri
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:38 sri1
+-rw-r--r--   2 hduser supergroup         50 2023-12-28 10:07 stud
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 suryaa.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:56 sushma.txt
+-rw-r--r--   2 hduser supergroup        101 2023-12-28 10:10 t
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:05 tej37
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 teja
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:35 telugu
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:18 thisIsASampleDie
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:43 thri
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 ttt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:24 unique
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 veeru
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:18 vijaya
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:45 vishu
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:32 vp
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:38 xyz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 yamuna
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:35 zee
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:36 zeetelugu
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 zoro65
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:12 zyxwvutsrqponmlkjihgfedcba
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:15 zz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:43 zzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:43 zzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:39 zzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/Nagu/
+Found 2 items
+-rw-r--r--   2 hduser supergroup         42 2023-12-28 13:59 /VI_CSE_B/Nagu/Nagu.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-30 12:01 /VI_CSE_B/Nagu/wcoutput
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -mkdir/VI_CSE_B/21761A0590
+-mkdir/VI_CSE_B/21761A0590: Unknown command
+Usage: hadoop fs [generic options]
+        [-appendToFile <localsrc> ... <dst>]
+        [-cat [-ignoreCrc] <src> ...]
+        [-checksum <src> ...]
+        [-chgrp [-R] GROUP PATH...]
+        [-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+        [-chown [-R] [OWNER][:[GROUP]] PATH...]
+        [-copyFromLocal [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-copyToLocal [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-count [-q] [-h] [-v] [-t [<storage type>]] [-u] [-x] <path> ...]
+        [-cp [-f] [-p | -p[topax]] [-d] <src> ... <dst>]
+        [-createSnapshot <snapshotDir> [<snapshotName>]]
+        [-deleteSnapshot <snapshotDir> <snapshotName>]
+        [-df [-h] [<path> ...]]
+        [-du [-s] [-h] [-x] <path> ...]
+        [-expunge]
+        [-find <path> ... <expression> ...]
+        [-get [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-getfacl [-R] <path>]
+        [-getfattr [-R] {-n name | -d} [-e en] <path>]
+        [-getmerge [-nl] [-skip-empty-file] <src> <localdst>]
+        [-help [cmd ...]]
+        [-ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [<path> ...]]
+        [-mkdir [-p] <path> ...]
+        [-moveFromLocal <localsrc> ... <dst>]
+        [-moveToLocal <src> <localdst>]
+        [-mv <src> ... <dst>]
+        [-put [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-renameSnapshot <snapshotDir> <oldName> <newName>]
+        [-rm [-f] [-r|-R] [-skipTrash] [-safely] <src> ...]
+        [-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+        [-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+        [-setfattr {-n name [-v value] | -x name} <path>]
+        [-setrep [-R] [-w] <rep> <path> ...]
+        [-stat [format] <path> ...]
+        [-tail [-f] <file>]
+        [-test -[defsz] <path>]
+        [-text [-ignoreCrc] <src> ...]
+        [-touchz <path> ...]
+        [-truncate [-w] <length> <path> ...]
+        [-usage [cmd ...]]
+
+Generic options supported are:
+-conf <configuration file>        specify an application configuration file
+-D <property=value>               define a value for a given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>  specify a ResourceManager
+-files <file1,...>                specify a comma-separated list of files to be copied to the map reduce cluster
+-libjars <jar1,...>               specify a comma-separated list of jar files to be included in the classpath
+-archives <archive1,...>          specify a comma-separated list of archives to be unarchived on the compute machines
+
+The general command line syntax is:
+command [genericOptions] [commandOptions]
+
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ^C
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs ls
+ls: Unknown command
+Did you mean -ls?  This command begins with a dash.
+Usage: hadoop fs [generic options]
+        [-appendToFile <localsrc> ... <dst>]
+        [-cat [-ignoreCrc] <src> ...]
+        [-checksum <src> ...]
+        [-chgrp [-R] GROUP PATH...]
+        [-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+        [-chown [-R] [OWNER][:[GROUP]] PATH...]
+        [-copyFromLocal [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-copyToLocal [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-count [-q] [-h] [-v] [-t [<storage type>]] [-u] [-x] <path> ...]
+        [-cp [-f] [-p | -p[topax]] [-d] <src> ... <dst>]
+        [-createSnapshot <snapshotDir> [<snapshotName>]]
+        [-deleteSnapshot <snapshotDir> <snapshotName>]
+        [-df [-h] [<path> ...]]
+        [-du [-s] [-h] [-x] <path> ...]
+        [-expunge]
+        [-find <path> ... <expression> ...]
+        [-get [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-getfacl [-R] <path>]
+        [-getfattr [-R] {-n name | -d} [-e en] <path>]
+        [-getmerge [-nl] [-skip-empty-file] <src> <localdst>]
+        [-help [cmd ...]]
+        [-ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [<path> ...]]
+        [-mkdir [-p] <path> ...]
+        [-moveFromLocal <localsrc> ... <dst>]
+        [-moveToLocal <src> <localdst>]
+        [-mv <src> ... <dst>]
+        [-put [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-renameSnapshot <snapshotDir> <oldName> <newName>]
+        [-rm [-f] [-r|-R] [-skipTrash] [-safely] <src> ...]
+        [-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+        [-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+        [-setfattr {-n name [-v value] | -x name} <path>]
+        [-setrep [-R] [-w] <rep> <path> ...]
+        [-stat [format] <path> ...]
+        [-tail [-f] <file>]
+        [-test -[defsz] <path>]
+        [-text [-ignoreCrc] <src> ...]
+        [-touchz <path> ...]
+        [-truncate [-w] <length> <path> ...]
+        [-usage [cmd ...]]
+
+Generic options supported are:
+-conf <configuration file>        specify an application configuration file
+-D <property=value>               define a value for a given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>  specify a ResourceManager
+-files <file1,...>                specify a comma-separated list of files to be copied to the map reduce cluster
+-libjars <jar1,...>               specify a comma-separated list of jar files to be included in the classpath
+-archives <archive1,...>          specify a comma-separated list of archives to be unarchived on the compute machines
+
+The general command line syntax is:
+command [genericOptions] [commandOptions]
+
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -,ls /VI_CSE_B/
+-,ls: Unknown command
+Usage: hadoop fs [generic options]
+        [-appendToFile <localsrc> ... <dst>]
+        [-cat [-ignoreCrc] <src> ...]
+        [-checksum <src> ...]
+        [-chgrp [-R] GROUP PATH...]
+        [-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+        [-chown [-R] [OWNER][:[GROUP]] PATH...]
+        [-copyFromLocal [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-copyToLocal [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-count [-q] [-h] [-v] [-t [<storage type>]] [-u] [-x] <path> ...]
+        [-cp [-f] [-p | -p[topax]] [-d] <src> ... <dst>]
+        [-createSnapshot <snapshotDir> [<snapshotName>]]
+        [-deleteSnapshot <snapshotDir> <snapshotName>]
+        [-df [-h] [<path> ...]]
+        [-du [-s] [-h] [-x] <path> ...]
+        [-expunge]
+        [-find <path> ... <expression> ...]
+        [-get [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-getfacl [-R] <path>]
+        [-getfattr [-R] {-n name | -d} [-e en] <path>]
+        [-getmerge [-nl] [-skip-empty-file] <src> <localdst>]
+        [-help [cmd ...]]
+        [-ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [<path> ...]]
+        [-mkdir [-p] <path> ...]
+        [-moveFromLocal <localsrc> ... <dst>]
+        [-moveToLocal <src> <localdst>]
+        [-mv <src> ... <dst>]
+        [-put [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-renameSnapshot <snapshotDir> <oldName> <newName>]
+        [-rm [-f] [-r|-R] [-skipTrash] [-safely] <src> ...]
+        [-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+        [-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+        [-setfattr {-n name [-v value] | -x name} <path>]
+        [-setrep [-R] [-w] <rep> <path> ...]
+        [-stat [format] <path> ...]
+        [-tail [-f] <file>]
+        [-test -[defsz] <path>]
+        [-text [-ignoreCrc] <src> ...]
+        [-touchz <path> ...]
+        [-truncate [-w] <length> <path> ...]
+        [-usage [cmd ...]]
+
+Generic options supported are:
+-conf <configuration file>        specify an application configuration file
+-D <property=value>               define a value for a given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>  specify a ResourceManager
+-files <file1,...>                specify a comma-separated list of files to be copied to the map reduce cluster
+-libjars <jar1,...>               specify a comma-separated list of jar files to be included in the classpath
+-archives <archive1,...>          specify a comma-separated list of archives to be unarchived on the compute machines
+
+The general command line syntax is:
+command [genericOptions] [commandOptions]
+
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/
+Found 50 items
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A0567
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0568
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0569
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0570
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0571
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0572
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0573
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0576
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0578
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0579
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0580
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0581
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0583
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0584
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0585
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0586
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0588
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0589
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0592
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0594
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0595
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0596
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:02 /VI_CSE_B/21761A0597
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0598
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A2
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A05A3
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A5
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A6
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A8
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A05A9
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05B0
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05B2
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B3
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B6
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B7
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B8
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B9
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C0
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05C4
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C5
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C6
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C8
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A05C9
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05D1
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05D2
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/2176A0577
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/22765A0508
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/22765A0510
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/22765A0512
+drwxr-xr-x   - hduser supergroup          0 2023-12-30 12:00 /VI_CSE_B/Nagu
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -mkdir /VI_CSE_B/21761A0590
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/
+Found 57 items
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A0567
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0568
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0569
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0570
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0571
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0572
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0573
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A0575
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0576
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:06 /VI_CSE_B/21761A0577
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0578
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0579
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0580
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0581
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0583
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0584
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0585
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0586
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0588
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0589
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:06 /VI_CSE_B/21761A0590
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0592
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:06 /VI_CSE_B/21761A0593
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0594
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0595
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A0596
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:02 /VI_CSE_B/21761A0597
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A0598
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:06 /VI_CSE_B/21761A05A0
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A2
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A05A3
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A5
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A6
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05A8
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A05A9
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05B0
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05B2
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B3
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B6
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B7
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B8
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05B9
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C0
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05C1
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05C4
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C5
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C6
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05C8
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:04 /VI_CSE_B/21761A05C9
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:05 /VI_CSE_B/21761A05D0
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05D1
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/21761A05D2
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/2176A0577
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/22765A0508
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/22765A0510
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:03 /VI_CSE_B/22765A0512
+drwxr-xr-x   - hduser supergroup          0 2023-12-30 12:00 /VI_CSE_B/Nagu
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs-put /VI_CSE_B/21761A0590/file.txt/VI_CSE_B/file.txt
+Error: Could not find or load main class fs-put
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -put /VI_CSE_B/21761A0590/file.txt/VI_CSE_B/file.txt
+put: `/VI_CSE_B/21761A0590/file.txt/VI_CSE_B/file.txt': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -put file.txt/VI_CSE_B/file.txt
+put: `file.txt/VI_CSE_B/file.txt': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -put file.txt /VI_CSE_B/file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -put file.txt /VI_CSE_B/21761A0590/file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590
+Found 1 items
+-rw-r--r--   2 hduser supergroup        440 2024-01-02 14:15 /VI_CSE_B/21761A0590/file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590/file.txt
+-rw-r--r--   2 hduser supergroup        440 2024-01-02 14:15 /VI_CSE_B/21761A0590/file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/file.txt
+ganesh jaggineni is a god boy
+my name is ganesh.
+I am studying btech in world top college named as lbrce
+lbrce stands for lakireddy bali reddy college of engineering
+cseb
+6th sem
+rakbh boys hostel
+surayya_avinash
+gana
+gani
+bruteforce attack
+I studied ssc in government boys high school gajapathinagaram
+I studied 10+2 in sree sai siddhartha college bondapalli,gajapathinagaram
+I am studying btech in greatest college of the world i.e lbrce
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar 21761A0590.jar file.txt /VI_CSE_B/21761A0590/wcoutput
+JAR does not exist or is not a normal file: /home/hduser/VI_CSE_B/21761A0590/21761A0590.jar
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar 21761A0590.jar file.txt/VI_CSE_B/21761A0590/wcoutput
+JAR does not exist or is not a normal file: /home/hduser/VI_CSE_B/21761A0590/21761A0590.jar
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar 21761A0590wc.jar file.txt /VI_CSE_B/21761A0590/wcoutput
+24/01/02 14:39:53 INFO client.RMProxy: Connecting to ResourceManager at master-node-20/192.168.100.20:8050
+24/01/02 14:39:53 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+24/01/02 14:39:53 INFO input.FileInputFormat: Total input files to process : 1
+24/01/02 14:39:53 INFO mapreduce.JobSubmitter: number of splits:1
+24/01/02 14:39:53 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+24/01/02 14:39:53 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1702437561399_0005
+24/01/02 14:39:54 INFO impl.YarnClientImpl: Submitted application application_1702437561399_0005
+24/01/02 14:39:54 INFO mapreduce.Job: The url to track the job: http://master-node-20:8088/proxy/application_1702437561399_0005/
+24/01/02 14:39:54 INFO mapreduce.Job: Running job: job_1702437561399_0005
+24/01/02 14:40:09 INFO mapreduce.Job: Job job_1702437561399_0005 running in uber mode : false
+24/01/02 14:40:09 INFO mapreduce.Job:  map 0% reduce 0%
+24/01/02 14:40:15 INFO mapreduce.Job:  map 100% reduce 0%
+24/01/02 14:40:19 INFO mapreduce.Job:  map 100% reduce 100%
+24/01/02 14:40:20 INFO mapreduce.Job: Job job_1702437561399_0005 completed successfully
+24/01/02 14:40:20 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=6
+                FILE: Number of bytes written=396197
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=112
+                HDFS: Number of bytes written=0
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Other local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=3455
+                Total time spent by all reduces in occupied slots (ms)=1994
+                Total time spent by all map tasks (ms)=3455
+                Total time spent by all reduce tasks (ms)=1994
+                Total vcore-milliseconds taken by all map tasks=3455
+                Total vcore-milliseconds taken by all reduce tasks=1994
+                Total megabyte-milliseconds taken by all map tasks=3537920
+                Total megabyte-milliseconds taken by all reduce tasks=2041856
+        Map-Reduce Framework
+                Map input records=0
+                Map output records=0
+                Map output bytes=0
+                Map output materialized bytes=6
+                Input split bytes=112
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=0
+                Reduce shuffle bytes=6
+                Reduce input records=0
+                Reduce output records=0
+                Spilled Records=0
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=169
+                CPU time spent (ms)=850
+                Physical memory (bytes) snapshot=496263168
+                Virtual memory (bytes) snapshot=3856789504
+                Total committed heap usage (bytes)=290455552
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=0
+        File Output Format Counters
+                Bytes Written=0
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar 21761A0590wc.jar file.txt /VI_CSE_B/21761A0590/wcoutput
+24/01/02 14:50:15 INFO client.RMProxy: Connecting to ResourceManager at master-node-20/192.168.100.20:8050
+Exception in thread "main" org.apache.hadoop.mapred.FileAlreadyExistsException: Output directory hdfs://master-node-20:8020/VI_CSE_B/21761A0590/wcoutput already exists
+        at org.apache.hadoop.mapreduce.lib.output.FileOutputFormat.checkOutputSpecs(FileOutputFormat.java:146)
+        at org.apache.hadoop.mapreduce.JobSubmitter.checkSpecs(JobSubmitter.java:279)
+        at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:145)
+        at org.apache.hadoop.mapreduce.Job$11.run(Job.java:1570)
+        at org.apache.hadoop.mapreduce.Job$11.run(Job.java:1567)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at javax.security.auth.Subject.doAs(Subject.java:422)
+        at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1893)
+        at org.apache.hadoop.mapreduce.Job.submit(Job.java:1567)
+        at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1588)
+        at com.lbrce.wordcount.WCDriver.main(WCDriver.java:47)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.hadoop.util.RunJar.run(RunJar.java:244)
+        at org.apache.hadoop.util.RunJar.main(RunJar.java:158)
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590/wcoutput
+Found 2 items
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/_SUCCESS
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ Found 2 items
+/wcoutput/part-r-00000Found: command not found
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ -rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/_SUCCESS
+-rw-r--r--: command not found
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ -rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/part-r-00000
+-rw-r--r--: command not found
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat wcoutput/part*
+cat: `wcoutput/part*': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wcoutput/part*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat wcoutput/part*
+cat: `wcoutput/part*': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wcoutput/part*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat wcoutput/part*
+cat: `wcoutput/part*': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls wcoutput/part*
+ls: `wcoutput/part*': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /wcoutput/part*
+ls: `/wcoutput/part*': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls
+Found 335 items
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 1A0542
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:11 1a0523
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:09 1a0542
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 12:22 2021CSE-C
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 10:38 2021CSE-C21761A05I7
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:21 21
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 2161A05E8
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:25 21761A0507
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:54 21761A0514
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:23 21761A0520
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:15 21761A0529
+-rw-r--r--   2 hduser supergroup         21 2023-12-21 11:23 21761A0540
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:33 21761A0543
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:23 21761A0548
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:39 21761A0555
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:31 21761A0560
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:14 21761A05D9
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:20 21761A05E7
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:52 21761A05F0
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 21761A05G6
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:15 21761A05H1
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:20 21761A05H3
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:56 21761A05H5
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:55 21761A05I2
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 10:29 21761A05I5
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:25 21761A05I7
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:28 21761A05I8
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:35 21761A05I9
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:36 21761A05J1
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:27 21761A05J3
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:21 21761A05J4
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:08 21761A05J5
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:09 21761A05J6
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:00 21761A4206
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:06 21761A4207
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:01 21761A4242
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:01 21761A4266
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:23 21761A540
+-rw-r--r--   2 hduser supergroup         50 2023-12-28 10:08 21761a0056
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:29 21761a0556
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:05 21cse069
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 22517
+-rw-r--r--   2 hduser supergroup       1066 2024-01-02 14:20 22765A0508.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:50 22765A05117
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:17 22765A0513
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:27 22765A0514
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:34 22765A0515
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 22765A0518
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:05 22765A4204
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 15:28 22LE16
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:45 23
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:22 32
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:22 32.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:23 508a
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 509
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:26 511
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:42 512
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:15 514
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:07 515
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 517
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:21 521
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:21 522
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:22 527
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:13 532
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:06 535
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:15 547
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:31 562
+-rw-r--r--   2 hduser supergroup        123 2023-12-28 10:05 563
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:38 564
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:04 565
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:55 5J5.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:59 5J6.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:16 A0508
+-rw-r--r--   2 hduser supergroup        161 2024-01-02 14:23 A6.txt
+-rw-r--r--   2 hduser supergroup        256 2024-01-02 14:22 A8file.txt
+-rw-r--r--   2 hduser supergroup       1953 2024-01-02 14:20 B6.txt
+-rw-r--r--   2 hduser supergroup        114 2024-01-02 14:20 B7.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 Bhavana
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 D8
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 D8.txt
+-rw-r--r--   2 hduser supergroup        123 2023-12-28 10:18 Dr_dani
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 Durga
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:23 F5
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 F8.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 File1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 G7.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 G9.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:14 HK
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:30 Hadoop-File
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:22 Hygriv.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:41 J2
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:37 J2.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 J5.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 J6.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:21 Jaya
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:24 Jaya.txt
+-rw-r--r--   2 hduser supergroup        152 2024-01-02 14:23 Jp.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:01 Levi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:04 Maks_01
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 10:34 Manoj_5G0_lbrce
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:19 Mohith_reddy
+-rw-r--r--   2 hduser supergroup         47 2023-12-21 11:15 Nikhil
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:17 NikhilBande
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 Prasanna
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:33 RDJ
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:23 Raj
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:07 Sai
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:02 Taruni
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:05 Touch.txt
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:26 VI_CSE_B
+-rw-r--r--   2 hduser supergroup         30 2023-12-20 11:17 Vamsi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:44 Vijaya_Reddy
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:01 XYZ.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-18 15:30 _sample.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:14 a
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 a23_hadoop_dp
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 a541
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:45 aa
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:54 ab
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 abc
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 abc.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:12 abcdefghijklmnopqrstuvwxyz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 abhi
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:51 aiml
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:22 ajet
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:47 ali.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 ani
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:26 anime
+-rw-r--r--   2 hduser supergroup          1 2023-12-21 12:03 anu.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:05 aswini
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:39 bda
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:56 bhiravam_shankaram
+-rw-r--r--   2 hduser supergroup         84 2024-01-02 14:26 c6.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:51 chinmay
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:37 copy.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:12 cse
+-rw-r--r--   2 hduser supergroup         15 2023-12-28 10:12 cse-a
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:03 csea
+-rw-r--r--   2 hduser supergroup         18 2023-12-28 10:11 csesyam
+drwxr-xr-x   - hduser supergroup          0 2023-12-26 10:21 csm
+drwxr-xr-x   - hduser supergroup          0 2023-12-18 15:00 csm54
+-rw-r--r--   2 hduser supergroup          0 2023-12-21 10:32 d.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:44 dav
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:48 davlab.txt
+-rw-r--r--   2 hduser supergroup        289 2024-01-02 14:20 details.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 11:54 devi
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:19 devipriya
+-rw-r--r--   2 hduser supergroup         13 2023-12-28 09:22 dhamushya
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:11 dhanushya
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:22 dhoni
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:29 dir1
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:25 dir2
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:19 direc1
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:13 direc2
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:21 directory1
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:07 directory2
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:12 durga
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 durga.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:57 eren
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:46 eswar
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 ex1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 ex2.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:32 ex3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:49 ex4.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:43 example.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:45 f0.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:30 f2.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f3
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:31 f3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 f4.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:26 f5.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:30 f5files
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:11 f8.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:32 fil1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:50 file
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:49 file.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 file1
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:47 file1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:10 file111.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 file3
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 file3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 file34.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:54 file4.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:15 g7
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 gaya3.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:23 geetha
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:36 geetha.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:34 gopi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:20 gopi_THE_HERO
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 gopi_sanker
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:44 h1.txt
+-rw-r--r--   2 hduser supergroup        999 2024-01-02 14:17 h1C0.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 h5.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:07 h530
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 h554
+-rw-r--r--   2 hduser supergroup         63 2023-12-21 11:18 hadoop
+-rw-r--r--   2 hduser supergroup        204 2024-01-02 14:22 hadoop.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:52 hadoop1
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 hadoop501
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:21 hadoop503
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:52 hadoop521
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 09:11 hadoop528
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:53 hadoop529
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:10 hadoop538
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:36 hadoop539
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:20 hadoop554
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoop_dp
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:19 hadoopa541
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoopdirec
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:52 hadoopdp
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoopdppp
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 hadoopdpppp
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:03 hadoopfile1.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:17 hadoopkl
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:05 hadoopkl530
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 hadoopl
+-rw-r--r--   2 hduser supergroup          0 2023-12-18 15:36 hdf_sample.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 hdfile.txt
+-rw-r--r--   2 hduser supergroup         17 2023-12-18 15:30 hdp-sample.txt
+-rw-r--r--   2 hduser supergroup         32 2024-01-02 14:22 hello
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:05 hello.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:55 hema
+-rw-r--r--   2 hduser supergroup         92 2024-01-02 14:23 info
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:58 info.txt
+-rw-r--r--   2 hduser supergroup        352 2024-01-02 14:23 input.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:32 jji
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:19 jo
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 joshna
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 jyo
+-rw-r--r--   2 hduser supergroup        143 2024-01-02 14:20 k.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:55 karishma
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 kasi.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 kian
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:24 kil
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:09 kiran
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 kishore
+-rw-r--r--   2 hduser supergroup         56 2023-12-28 10:23 klo
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:14 kona
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:14 lakshmi
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 lal
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:53 lasya
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:27 likh
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:29 lk
+-rw-r--r--   2 hduser supergroup         58 2024-01-02 14:22 lovely.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 ls
+-rw-r--r--   2 hduser supergroup         29 2023-12-28 10:12 luci
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:25 lucky.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:24 mahi
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 manjusha
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:23 manojHad.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:22 manojHadoop.txt
+drwxr-xr-x   - hduser supergroup          0 2023-02-13 14:00 matrix
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:17 meera
+-rw-r--r--   2 hduser supergroup          0 2023-12-28 09:33 meerarecent
+-rw-r--r--   2 hduser supergroup          0 2023-12-28 09:33 meerarecent.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:07 mk
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 moti.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-18 09:47 mycseA
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:00 nan.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 nandini.txt
+-rw-r--r--   2 hduser supergroup        101 2024-01-02 14:19 newfile1.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:44 nikhii
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:10 pardha
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:56 pen
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 pooji
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:07 poori
+-rw-r--r--   2 hduser supergroup          0 2023-12-22 10:16 poornima.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 pp
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:34 prakash.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:02 prasanna
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:39 praveen
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 priya
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:11 priya2
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 10:14 pujitha521
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:36 r1.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:11 raju
+-rw-r--r--   2 hduser supergroup         47 2023-12-20 11:15 raju.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:53 rakesh
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:52 ram
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 ram.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:54 ramu.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 ria1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:06 rishi
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:17 rocky
+drwxr-xr-x   - hduser supergroup          0 2023-12-20 11:30 rockz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:33 rrr
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:33 s.txt
+-rw-r--r--   2 hduser supergroup         50 2023-12-28 10:09 s21
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:31 sai
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:04 saimounique.txt
+-rw-r--r--   2 hduser supergroup         29 2023-12-28 10:15 salaarr
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 samp3.txt
+-rw-r--r--   5 hduser supergroup         37 2023-12-18 15:01 sample.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:07 sample1
+drwxr-xr-x   - hduser supergroup          0 2023-12-15 14:53 sandesh
+-rw-r--r--   4 hduser supergroup          0 2023-12-20 11:23 sr1.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:27 sr2.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:41 srav
+-rw-r--r--   2 hduser supergroup        101 2023-12-28 10:12 sravan
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 11:17 sravani
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 12:25 sravs.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:39 sri
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 11:38 sri1
+-rw-r--r--   2 hduser supergroup         50 2023-12-28 10:07 stud
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:03 suryaa.txt
+-rw-r--r--   2 hduser supergroup          0 2023-12-20 11:56 sushma.txt
+-rw-r--r--   2 hduser supergroup        101 2023-12-28 10:10 t
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:05 tej37
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 teja
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:35 telugu
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:18 thisIsASampleDie
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:43 thri
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 ttt
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:24 unique
+-rw-r--r--   2 hduser supergroup        164 2024-01-02 14:22 vamsi.txt
+drwxr-xr-x   - hduser supergroup          0 2023-12-13 15:54 veeru
+drwxr-xr-x   - hduser supergroup          0 2023-12-21 12:18 vijaya
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:45 vishu
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:32 vp
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:38 xyz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:13 yamuna
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:35 zee
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:36 zeetelugu
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:16 zoro65
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:12 zyxwvutsrqponmlkjihgfedcba
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 10:15 zz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:43 zzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:43 zzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:39 zzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+drwxr-xr-x   - hduser supergroup          0 2023-12-28 09:37 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590
+Found 2 items
+-rw-r--r--   2 hduser supergroup        440 2024-01-02 14:15 /VI_CSE_B/21761A0590/file.txt
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590/wcoutput
+Found 2 items
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/_SUCCESS
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590/wcoutput/part*
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wcoutput/part*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs cat /VI_CSE_B/21761A0590/wcoutput/part*
+cat: Unknown command
+Did you mean -cat?  This command begins with a dash.
+Usage: hadoop fs [generic options]
+        [-appendToFile <localsrc> ... <dst>]
+        [-cat [-ignoreCrc] <src> ...]
+        [-checksum <src> ...]
+        [-chgrp [-R] GROUP PATH...]
+        [-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+        [-chown [-R] [OWNER][:[GROUP]] PATH...]
+        [-copyFromLocal [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-copyToLocal [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-count [-q] [-h] [-v] [-t [<storage type>]] [-u] [-x] <path> ...]
+        [-cp [-f] [-p | -p[topax]] [-d] <src> ... <dst>]
+        [-createSnapshot <snapshotDir> [<snapshotName>]]
+        [-deleteSnapshot <snapshotDir> <snapshotName>]
+        [-df [-h] [<path> ...]]
+        [-du [-s] [-h] [-x] <path> ...]
+        [-expunge]
+        [-find <path> ... <expression> ...]
+        [-get [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-getfacl [-R] <path>]
+        [-getfattr [-R] {-n name | -d} [-e en] <path>]
+        [-getmerge [-nl] [-skip-empty-file] <src> <localdst>]
+        [-help [cmd ...]]
+        [-ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [<path> ...]]
+        [-mkdir [-p] <path> ...]
+        [-moveFromLocal <localsrc> ... <dst>]
+        [-moveToLocal <src> <localdst>]
+        [-mv <src> ... <dst>]
+        [-put [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-renameSnapshot <snapshotDir> <oldName> <newName>]
+        [-rm [-f] [-r|-R] [-skipTrash] [-safely] <src> ...]
+        [-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+        [-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+        [-setfattr {-n name [-v value] | -x name} <path>]
+        [-setrep [-R] [-w] <rep> <path> ...]
+        [-stat [format] <path> ...]
+        [-tail [-f] <file>]
+        [-test -[defsz] <path>]
+        [-text [-ignoreCrc] <src> ...]
+        [-touchz <path> ...]
+        [-truncate [-w] <length> <path> ...]
+        [-usage [cmd ...]]
+
+Generic options supported are:
+-conf <configuration file>        specify an application configuration file
+-D <property=value>               define a value for a given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>  specify a ResourceManager
+-files <file1,...>                specify a comma-separated list of files to be copied to the map reduce cluster
+-libjars <jar1,...>               specify a comma-separated list of jar files to be included in the classpath
+-archives <archive1,...>          specify a comma-separated list of archives to be unarchived on the compute machines
+
+The general command line syntax is:
+command [genericOptions] [commandOptions]
+
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls -cat /VI_CSE_B/21761A0590/wcoutput/part*
+-ls: Illegal option -cat
+Usage: hadoop fs [generic options]
+        [-appendToFile <localsrc> ... <dst>]
+        [-cat [-ignoreCrc] <src> ...]
+        [-checksum <src> ...]
+        [-chgrp [-R] GROUP PATH...]
+        [-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+        [-chown [-R] [OWNER][:[GROUP]] PATH...]
+        [-copyFromLocal [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-copyToLocal [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-count [-q] [-h] [-v] [-t [<storage type>]] [-u] [-x] <path> ...]
+        [-cp [-f] [-p | -p[topax]] [-d] <src> ... <dst>]
+        [-createSnapshot <snapshotDir> [<snapshotName>]]
+        [-deleteSnapshot <snapshotDir> <snapshotName>]
+        [-df [-h] [<path> ...]]
+        [-du [-s] [-h] [-x] <path> ...]
+        [-expunge]
+        [-find <path> ... <expression> ...]
+        [-get [-f] [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+        [-getfacl [-R] <path>]
+        [-getfattr [-R] {-n name | -d} [-e en] <path>]
+        [-getmerge [-nl] [-skip-empty-file] <src> <localdst>]
+        [-help [cmd ...]]
+        [-ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [<path> ...]]
+        [-mkdir [-p] <path> ...]
+        [-moveFromLocal <localsrc> ... <dst>]
+        [-moveToLocal <src> <localdst>]
+        [-mv <src> ... <dst>]
+        [-put [-f] [-p] [-l] [-d] <localsrc> ... <dst>]
+        [-renameSnapshot <snapshotDir> <oldName> <newName>]
+        [-rm [-f] [-r|-R] [-skipTrash] [-safely] <src> ...]
+        [-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+        [-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+        [-setfattr {-n name [-v value] | -x name} <path>]
+        [-setrep [-R] [-w] <rep> <path> ...]
+        [-stat [format] <path> ...]
+        [-tail [-f] <file>]
+        [-test -[defsz] <path>]
+        [-text [-ignoreCrc] <src> ...]
+        [-touchz <path> ...]
+        [-truncate [-w] <length> <path> ...]
+        [-usage [cmd ...]]
+
+Generic options supported are:
+-conf <configuration file>        specify an application configuration file
+-D <property=value>               define a value for a given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>  specify a ResourceManager
+-files <file1,...>                specify a comma-separated list of files to be copied to the map reduce cluster
+-libjars <jar1,...>               specify a comma-separated list of jar files to be included in the classpath
+-archives <archive1,...>          specify a comma-separated list of archives to be unarchived on the compute machines
+
+The general command line syntax is:
+command [genericOptions] [commandOptions]
+
+Usage: hadoop fs [generic options] -ls [-C] [-d] [-h] [-q] [-R] [-t] [-S] [-r] [-u] [<path> ...]
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part
+cat: `/VI_CSE_B/21761A0590/wcoutput/part': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part-*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part
+cat: `/VI_CSE_B/21761A0590/wcoutput/part': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part-r
+cat: `/VI_CSE_B/21761A0590/wcoutput/part-r': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat wcoutput/part-r
+cat: `wcoutput/part-r': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /wcoutput/part-r
+cat: `/wcoutput/part-r': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /wcoutput
+cat: `/wcoutput': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat wcoutput
+cat: `wcoutput': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput
+cat: `/VI_CSE_B/21761A0590/wcoutput': Is a directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -ls /VI_CSE_B/21761A0590/wcoutput
+Found 2 items
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/_SUCCESS
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part-r-00000*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part
+cat: `/VI_CSE_B/21761A0590/wcoutput/part': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part-r-*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput
+cat: `/VI_CSE_B/21761A0590/wcoutput': Is a directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part
+cat: `/VI_CSE_B/21761A0590/wcoutput/part': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part
+cat: `/VI_CSE_B/21761A0590/wcoutput/part': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs  -cat /VI_CSE_B/21761A0590/wcoutput/part*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ exit
+logout
+Connection to 192.168.100.20 closed.
+student@BIGDATA:~$ scp C:\Users\ML Lab\Documents\BIG DATA ganesh jaggineni\21761A0590\21761A0590wordcount.jar student@172.16.10.14:/home/student/VI_CSE_B/21761A0590
+ssh: Could not resolve hostname c: Name or service not known
+student@172.16.10.14's password:
+LabDocumentsBIG: No such file or directory
+DATA: No such file or directory
+ganesh: No such file or directory
+jaggineni21761A059021761A0590wordcount.jar: No such file or directory
+student@BIGDATA:~$ scp C:/Users/ML Lab/Documents/BIG DATA ganesh jaggineni/21761A0590/21761A0590wordcount.jar student@172.16.10.14:/home/student/VI_CSE_B/21761A0590
+ssh: Could not resolve hostname c: Name or service not known
+student@172.16.10.14's password:
+Lab/Documents/BIG: No such file or directory
+DATA: No such file or directory
+ganesh: No such file or directory
+jaggineni/21761A0590/21761A0590wordcount.jar: No such file or directory
+student@BIGDATA:~$ ls
+12000       21761A05F4  21761A5446      22764A5401  AIDS23          cat       davfile         -uroot
+2021CSE-C   21761A05H1  21761A5447      22765A5401  AIDS34          cse-aiml  grepfile23.txt  VI_CSE_B
+21761A05A2  21761A05H8  21761A5460      4256        AIDS36          CSEAIML   hello           Vinaya
+21761A05B0  21761A4232  21761A5461      562         AIML-CSE        CSE_C     movedfile
+21761A05B9  21761A4239  21765A0518.txt  AI          awkExample.txt  CSEML     POrN69
+21761A05E6  21761A5409  21batch         AIDS21      B9              csm       PORN69
+21761A05E7  21761A5413  21csm67         AIDS22      bda             csml60    sample
+student@BIGDATA:~$ exit
+logout
+Connection to 172.16.10.14 closed.
+
+C:\Users\ML Lab>cd C:\Users\ML Lab\Documents\BIG DATA ganesh jaggineni\21761A0590
+
+C:\Users\ML Lab\Documents\BIG DATA ganesh jaggineni\21761A0590>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ML Lab\Documents\BIG DATA ganesh jaggineni\21761A0590>scp 21761A0590wordcount.jar student@172.16.10.14:/home/student/VI_CSE_B/21761A0590/
+student@172.16.10.14's password:
+Permission denied, please try again.
+student@172.16.10.14's password:
+21761A0590wordcount.jar                                               100% 7542     2.4MB/s   00:00
+
+C:\Users\ML Lab\Documents\BIG DATA ganesh jaggineni\21761A0590>ssh student@172.16.10.14
+student@172.16.10.14's password:
+Permission denied, please try again.
+student@172.16.10.14's password:
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-153-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tuesday 02 January 2024 03:35:47 PM IST
+
+  System load:    0.74                Processes:                1611
+  Usage of /home: 40.8% of 117.15GB   Users logged in:          2
+  Memory usage:   23%                 IPv4 address for docker0: 172.17.0.1
+  Swap usage:     0%                  IPv4 address for eno1np0: 172.16.10.14
+  Temperature:    37.0 C              IPv4 address for virbr0:  192.168.100.1
+
+  => /u1 is using 87.6% of 253.34GB
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+317 updates can be applied immediately.
+287 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+51 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '22.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Tue Jan  2 15:33:49 2024 from 172.16.12.64
+student@BIGDATA:~$ ls
+12000       21761A05F4  21761A5446      22764A5401  AIDS23          cat       davfile         -uroot
+2021CSE-C   21761A05H1  21761A5447      22765A5401  AIDS34          cse-aiml  grepfile23.txt  VI_CSE_B
+21761A05A2  21761A05H8  21761A5460      4256        AIDS36          CSEAIML   hello           Vinaya
+21761A05B0  21761A4232  21761A5461      562         AIML-CSE        CSE_C     movedfile
+21761A05B9  21761A4239  21765A0518.txt  AI          awkExample.txt  CSEML     POrN69
+21761A05E6  21761A5409  21batch         AIDS21      B9              csm       PORN69
+21761A05E7  21761A5413  21csm67         AIDS22      bda             csml60    sample
+student@BIGDATA:~$ cd 21761A0590
+-bash: cd: 21761A0590: No such file or directory
+student@BIGDATA:~$ cd VI_CSE_B/21761A0590
+student@BIGDATA:~/VI_CSE_B/21761A0590$ LS
+LS: command not found
+student@BIGDATA:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  21761A0590wordcount.jar
+student@BIGDATA:~/VI_CSE_B/21761A0590$ scp 21761A0590wordcount.jar hduser@192.168.100.20:/home/hduser/VI_CSE_B/21761A0590
+hduser@192.168.100.20's password:
+21761A0590wordcount.jar                                          100% 7542     6.2MB/s   00:00
+student@BIGDATA:~/VI_CSE_B/21761A0590$ hadoop fs -ls home/VI_CSE_B/21761A0590
+hadoop: command not found
+student@BIGDATA:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590
+hadoop: command not found
+student@BIGDATA:~/VI_CSE_B/21761A0590$ ssh hduser@192.168.100.20
+hduser@192.168.100.20's password:
+Welcome to Ubuntu 18.04.6 LTS (GNU/Linux 5.4.0-150-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+53 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+New release '20.04.6 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Tue Jan  2 15:43:11 2024 from 192.168.100.1
+hduser@master-node-20:~$ cd /home/hduser/VI_CSE_B/21761A0590
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls home/VI_CSE_B/21761A0590
+ls: `home/VI_CSE_B/21761A0590': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /home/VI_CSE_B/21761A0590
+ls: `/home/VI_CSE_B/21761A0590': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /home/VI_CSE_B/21761A0590/
+ls: `/home/VI_CSE_B/21761A0590/': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  21761A0590wordcount.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  21761A0590wordcount.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -put file.txt /VI_CSE_B/21761A0590/file.txt
+put: `/VI_CSE_B/21761A0590/file.txt': File exists
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590
+Found 2 items
+-rw-r--r--   2 hduser supergroup        440 2024-01-02 14:15 /VI_CSE_B/21761A0590/file.txt
+drwxr-xr-x   - hduser supergroup          0 2024-01-02 14:40 /VI_CSE_B/21761A0590/wcoutput
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop 21761A0590wordcount.jar file.txt /VI_CSE_B/21761A0590/wordcountoutput
+Error: Could not find or load main class 21761A0590wordcount.jar
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar 21761A0590wordcount.jar file.txt /VI_CSE_B/21761A0590/wordcountoutput
+24/01/02 16:04:24 INFO client.RMProxy: Connecting to ResourceManager at master-node-20/192.168.100.20:8050
+24/01/02 16:04:24 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+24/01/02 16:04:25 INFO input.FileInputFormat: Total input files to process : 1
+24/01/02 16:04:25 INFO mapreduce.JobSubmitter: number of splits:1
+24/01/02 16:04:25 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+24/01/02 16:04:25 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1702437561399_0044
+24/01/02 16:04:25 INFO impl.YarnClientImpl: Submitted application application_1702437561399_0044
+24/01/02 16:04:25 INFO mapreduce.Job: The url to track the job: http://master-node-20:8088/proxy/application_1702437561399_0044/
+24/01/02 16:04:25 INFO mapreduce.Job: Running job: job_1702437561399_0044
+24/01/02 16:04:30 INFO mapreduce.Job: Job job_1702437561399_0044 running in uber mode : false
+24/01/02 16:04:30 INFO mapreduce.Job:  map 0% reduce 0%
+24/01/02 16:04:34 INFO mapreduce.Job:  map 100% reduce 0%
+24/01/02 16:04:39 INFO mapreduce.Job:  map 100% reduce 100%
+24/01/02 16:04:40 INFO mapreduce.Job: Job job_1702437561399_0044 completed successfully
+24/01/02 16:04:40 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=6
+                FILE: Number of bytes written=396243
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=112
+                HDFS: Number of bytes written=0
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Other local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2269
+                Total time spent by all reduces in occupied slots (ms)=2036
+                Total time spent by all map tasks (ms)=2269
+                Total time spent by all reduce tasks (ms)=2036
+                Total vcore-milliseconds taken by all map tasks=2269
+                Total vcore-milliseconds taken by all reduce tasks=2036
+                Total megabyte-milliseconds taken by all map tasks=2323456
+                Total megabyte-milliseconds taken by all reduce tasks=2084864
+        Map-Reduce Framework
+                Map input records=0
+                Map output records=0
+                Map output bytes=0
+                Map output materialized bytes=6
+                Input split bytes=112
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=0
+                Reduce shuffle bytes=6
+                Reduce input records=0
+                Reduce output records=0
+                Spilled Records=0
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=164
+                CPU time spent (ms)=1000
+                Physical memory (bytes) snapshot=504340480
+                Virtual memory (bytes) snapshot=3847376896
+                Total committed heap usage (bytes)=289931264
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=0
+        File Output Format Counters
+                Bytes Written=0
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590/wordcountoutput
+Found 2 items
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 16:04 /VI_CSE_B/21761A0590/wordcountoutput/_SUCCESS
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 16:04 /VI_CSE_B/21761A0590/wordcountoutput/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wordcountoutput
+cat: `/VI_CSE_B/21761A0590/wordcountoutput': Is a directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wordcountoutput/part
+cat: `/VI_CSE_B/21761A0590/wordcountoutput/part': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wordcountoutput/part*
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar 21761A0590wordcount.jar /VI_CSE_B/21761A0590/file.txt /VI_CSE_B/21761A0590/wordcouout
+24/01/02 16:08:08 INFO client.RMProxy: Connecting to ResourceManager at master-node-20/192.168.100.20:8050
+24/01/02 16:08:08 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+24/01/02 16:08:08 INFO input.FileInputFormat: Total input files to process : 1
+24/01/02 16:08:08 INFO mapreduce.JobSubmitter: number of splits:1
+24/01/02 16:08:08 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+24/01/02 16:08:08 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1702437561399_0053
+24/01/02 16:08:09 INFO impl.YarnClientImpl: Submitted application application_1702437561399_0053
+24/01/02 16:08:09 INFO mapreduce.Job: The url to track the job: http://master-node-20:8088/proxy/application_1702437561399_0053/
+24/01/02 16:08:09 INFO mapreduce.Job: Running job: job_1702437561399_0053
+24/01/02 16:08:14 INFO mapreduce.Job: Job job_1702437561399_0053 running in uber mode : false
+24/01/02 16:08:14 INFO mapreduce.Job:  map 0% reduce 0%
+24/01/02 16:08:18 INFO mapreduce.Job:  map 100% reduce 0%
+24/01/02 16:08:23 INFO mapreduce.Job:  map 100% reduce 100%
+24/01/02 16:08:23 INFO mapreduce.Job: Job job_1702437561399_0053 completed successfully
+24/01/02 16:08:23 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=872
+                FILE: Number of bytes written=397981
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=560
+                HDFS: Number of bytes written=450
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Rack-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2036
+                Total time spent by all reduces in occupied slots (ms)=2136
+                Total time spent by all map tasks (ms)=2036
+                Total time spent by all reduce tasks (ms)=2136
+                Total vcore-milliseconds taken by all map tasks=2036
+                Total vcore-milliseconds taken by all reduce tasks=2136
+                Total megabyte-milliseconds taken by all map tasks=2084864
+                Total megabyte-milliseconds taken by all reduce tasks=2187264
+        Map-Reduce Framework
+                Map input records=14
+                Map output records=71
+                Map output bytes=724
+                Map output materialized bytes=872
+                Input split bytes=120
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=52
+                Reduce shuffle bytes=872
+                Reduce input records=71
+                Reduce output records=52
+                Spilled Records=142
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=128
+                CPU time spent (ms)=1170
+                Physical memory (bytes) snapshot=496377856
+                Virtual memory (bytes) snapshot=3857133568
+                Total committed heap usage (bytes)=288882688
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=440
+        File Output Format Counters
+                Bytes Written=450
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/wordcouout
+ls: `/VI_CSE_B/wordcouout': No such file or directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590/wordcouout
+Found 2 items
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 16:08 /VI_CSE_B/21761A0590/wordcouout/_SUCCESS
+-rw-r--r--   2 hduser supergroup        450 2024-01-02 16:08 /VI_CSE_B/21761A0590/wordcouout/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wordcouout
+cat: `/VI_CSE_B/21761A0590/wordcouout': Is a directory
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  21761A0590wordcount.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/wordcouout/part*
+10+2    1
+6th     1
+I       4
+a       1
+am      2
+as      1
+attack  1
+bali    1
+bondapalli,gajapathinagaram     1
+boy     1
+boys    2
+bruteforce      1
+btech   2
+college 4
+cseb    1
+engineering     1
+for     1
+gajapathinagaram        1
+gana    1
+ganesh  1
+ganesh. 1
+gani    1
+god     1
+government      1
+greatest        1
+high    1
+hostel  1
+i.e     1
+in      4
+is      2
+jaggineni       1
+lakireddy       1
+lbrce   3
+my      1
+name    1
+named   1
+of      2
+rakbh   1
+reddy   1
+sai     1
+school  1
+sem     1
+siddhartha      1
+sree    1
+ssc     1
+stands  1
+studied 2
+studying        2
+surayya_avinash 1
+the     1
+top     1
+world   2
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ls
+21761A0590wc.jar  21761A0590wordcount.jar  file.txt
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar file.jar 21761A0590wc.jar /VI_CSE_B/21761A0590/charcountop
+JAR does not exist or is not a normal file: /home/hduser/VI_CSE_B/21761A0590/file.jar
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar file.jar 21761A0590wc.jar /VI_CSE_B/21761A0590/file.txt /VI_CSE_B/21761A0590/charcountop
+JAR does not exist or is not a normal file: /home/hduser/VI_CSE_B/21761A0590/file.jar
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop jar  21761A0590wc.jar /VI_CSE_B/21761A0590/file.txt /VI_CSE_B/21761A0590/charcountop
+24/01/02 16:16:37 INFO client.RMProxy: Connecting to ResourceManager at master-node-20/192.168.100.20:8050
+24/01/02 16:16:37 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+24/01/02 16:16:37 INFO input.FileInputFormat: Total input files to process : 1
+24/01/02 16:16:37 INFO mapreduce.JobSubmitter: number of splits:1
+24/01/02 16:16:38 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+24/01/02 16:16:38 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1702437561399_0061
+24/01/02 16:16:38 INFO impl.YarnClientImpl: Submitted application application_1702437561399_0061
+24/01/02 16:16:38 INFO mapreduce.Job: The url to track the job: http://master-node-20:8088/proxy/application_1702437561399_0061/
+24/01/02 16:16:38 INFO mapreduce.Job: Running job: job_1702437561399_0061
+24/01/02 16:16:43 INFO mapreduce.Job: Job job_1702437561399_0061 running in uber mode : false
+24/01/02 16:16:43 INFO mapreduce.Job:  map 0% reduce 0%
+24/01/02 16:16:48 INFO mapreduce.Job:  map 100% reduce 0%
+24/01/02 16:16:52 INFO mapreduce.Job:  map 100% reduce 100%
+24/01/02 16:16:52 INFO mapreduce.Job: Job job_1702437561399_0061 completed successfully
+24/01/02 16:16:52 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=9804
+                FILE: Number of bytes written=415815
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=560
+                HDFS: Number of bytes written=21
+                HDFS: Number of read operations=6
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Rack-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=2381
+                Total time spent by all reduces in occupied slots (ms)=2098
+                Total time spent by all map tasks (ms)=2381
+                Total time spent by all reduce tasks (ms)=2098
+                Total vcore-milliseconds taken by all map tasks=2381
+                Total vcore-milliseconds taken by all reduce tasks=2098
+                Total megabyte-milliseconds taken by all map tasks=2438144
+                Total megabyte-milliseconds taken by all reduce tasks=2148352
+        Map-Reduce Framework
+                Map input records=14
+                Map output records=426
+                Map output bytes=8946
+                Map output materialized bytes=9804
+                Input split bytes=120
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=1
+                Reduce shuffle bytes=9804
+                Reduce input records=426
+                Reduce output records=1
+                Spilled Records=852
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=155
+                CPU time spent (ms)=1190
+                Physical memory (bytes) snapshot=504455168
+                Virtual memory (bytes) snapshot=3860656128
+                Total committed heap usage (bytes)=294125568
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=440
+        File Output Format Counters
+                Bytes Written=21
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -ls /VI_CSE_B/21761A0590/charcountop
+Found 2 items
+-rw-r--r--   2 hduser supergroup          0 2024-01-02 16:16 /VI_CSE_B/21761A0590/charcountop/_SUCCESS
+-rw-r--r--   2 hduser supergroup         21 2024-01-02 16:16 /VI_CSE_B/21761A0590/charcountop/part-r-00000
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ hadoop fs -cat /VI_CSE_B/21761A0590/charcountop/part*
+Total Characters        426
+hduser@master-node-20:~/VI_CSE_B/21761A0590$ ^C
+hduser@master-node-20:~/VI_CSE_B/21761A0590$
